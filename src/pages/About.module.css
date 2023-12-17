@@ -1,6 +1,6 @@
 .about {
   display: flex;
-  gap: 107px;
+  gap: 50px;
   justify-content: center;
   margin-top: 20px;
   .about__me {
@@ -29,10 +29,10 @@
     margin-right: 20px;
   }
   .about__text {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
-    width: 483px;
-    margin-top: 120px;
+    width: 477px;
+    margin-top: 156px;
   }
 }
 
