@@ -17,6 +17,9 @@
   background-color: #8d72e1;
   border-radius: 8px;
 }
+.MuiFormControl-root.MuiTextField-root input {
+  color: white;
+}
 
 .MuiOutlinedInput-notchedOutline {
   border-color: white !important;
