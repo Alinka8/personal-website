@@ -1,0 +1,42 @@
+.header {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-left: 14%;
+  gap: 20px;
+}
+.projects__header {
+  background-color: white;
+}
+.projects__card {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .projects {
+    width: 90%;
+    gap: 10px;
+    margin: 40px auto;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .projects {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
