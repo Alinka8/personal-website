@@ -17,7 +17,7 @@ export const About = () => {
           className={styles.about__javascript}
         />
 
-        <img src={me} alt="my picture" className={styles.about__me} />
+        <img src={me} alt="me" className={styles.about__me} />
         <img src={css} alt="css icon" className={styles.about__cssicon} />
         <img src={html} alt="html icon" className={styles.about__htmlicon} />
       </div>
